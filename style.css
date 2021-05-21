@@ -1,0 +1,683 @@
+
+*{
+	padding: 0;
+	margin: 7px;
+	box-sizing: border-box;
+}
+
+.contener{
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+	position: relative;
+
+
+}
+
+@media(min-width: 576px){
+	.contener{
+
+		max-width: 540px;
+	}
+}
+@media(min-width: 768px){
+	.contener{
+
+		max-width: 720px;
+	}
+}
+
+@media(min-width: 992px){
+	.contener{
+
+		max-width: 968px;
+	}
+}
+
+@media(min-width: 1200px){
+	.contener{
+
+		max-width: 1152px;
+	}
+
+}
+
+header.topbar{
+	background-color: grey;
+	color:white;
+	font-family: bold;
+	padding: 0.75rem 0; 
+	
+
+
+}
+header.topbar .auth > div a{
+	color: white;
+	text-decoration: none;
+}
+header.topbar .icons a{
+	margin: 0.6rem;
+
+}
+
+header.topbar .auth .divider{
+	padding: 0 1rem;
+
+}
+header.topbar .auth > div img{
+	margin-right: 0.35rem;
+}
+
+.flex{
+	display: flex;
+
+}
+.justify-between{
+	justify-content: space-between;
+
+}
+
+.items-center{
+	align-items: center;
+}
+.justify-center{
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+nav .topclass{
+	padding: 1.5rem 0;
+}
+
+nav .topclass .contact h5{
+	font-family: black;
+	margin-bottom: 0.25rem;
+}
+
+
+nav .topclass .contact h5 , nav .topclass .time h5{
+	font-family: black;
+	margin-bottom: 0.25rem;
+}
+nav .topclass .contact h6 , nav .topclass .time h6{
+
+
+	font-family: italic;
+	letter-spacing: 0.055rem;
+	font-size: 0.75rem;
+	color: grey;
+	
+}
+nav .topclass .contact img , nav .topclss .time img{
+	margin-right: 1rem;
+}
+
+
+}
+nav .navbar >div{
+	display: block;
+
+
+}
+ nav .navbar a{
+	text-decoration: none;
+	color: black;
+	font-family: bold;
+	font-size: 1.3rem;
+	padding: 1rem 1.5rem;
+	transition: all .3s ease;
+	-webkit-transition:all .3s ease;
+	-moz-transition:all .3s ease;
+	-ms-transition:all .3s ease;
+	-o-transition:all .3s ease;
+
+}
+.navbar a.active{
+ 	background: yellow;
+ 	color: white;
+ }
+
+  .navbar a:hover{
+background: yellow;
+ 	color: white;
+
+ }
+ .navbar.magic-shadow{
+  	position: relative;
+  	background: white;
+  }
+.magic-shadow-sm:after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 69px;
+	background-image: url("./icons/shadow.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	bottom: -22px;
+	left: 50%
+	transform:translateX(-50%);
+z-index: -1;
+}
+
+
+header.hero{
+	height: 600px;
+	background-image: url(./img/hero.png);
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	overflow: hidden; 
+	
+
+
+}
+header.hero .contener{
+	position: relative;
+}
+header.hero .welcome span{
+	font-family: "Raleway-Bold";
+	color: black;
+	margin-right: 0.75rem;
+}
+header.hero .welcome{
+	margin-bottom: 0.25rem;
+}
+
+header.hero h1{
+	font-family: "Ralway-Bold";
+	color: black;
+	font-size: 2.5rem;
+	margin-bottom: 0.75rem;
+}
+header.hero h1 span{
+
+	color:red;
+
+}
+header.hero p{
+	font-family:italic;
+	width:50%;
+	line-height:1.5; margin-bottom:1rem;
+}
+
+.btn{
+	padding: 0.75rem 0.75rem;
+	border-radius: 4px;
+	-webkit-border :4px;
+	-moz-border:4px;
+	-ms-border:4px;
+	-o-border:4px;
+	
+	line-height: 0.8;
+	font-size: 1.2rem;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	-webkit-transition:all .3s ease;
+	-moz-transition:all .3s ease;
+	-ms-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	border:1px solid transparent;
+
+}
+
+.btn-primary{
+	background: yellow;
+	color: white;
+
+}
+
+.btn-primary:hover{
+	background: white;
+	color: yellow;
+	border: 1px solid yellow;
+
+}
+.btn-secondary{
+	background: black;
+	color: white;
+
+}
+
+.btn-secondary:hover{
+	background: white;
+	color: black;
+	border: 1px solid red;
+
+
+}
+
+header.hero button:first-child{
+	margin-right:0.50rem; 
+}
+
+
+header.hero .hero-img{
+	position: absolute;
+	top: -40px;
+	right: 40px;
+
+}
+
+body{
+	-webkit-font-smoothing:antialiased;
+	
+	
+}
+
+section{
+	padding: 4rem 0;
+
+}
+
+section.top-product{
+	background:white;
+}
+.section-heading{
+	font-family: "Ralway-Bold";
+	text-align: center;
+	position: relative;
+	margin-bottom: 6rem;
+
+}
+
+.section-heading:after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 30px;
+	background-image: url(./icons/hr.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	bottom: -40px;
+
+}
+
+section.top-product .food_slider .food_card{
+	background: #e6ddda;
+	padding: 1.3rem 3rem;
+	border-radius: 4px;
+	-webkit- border:4px;
+	-moz-border:4px;
+	-ms-border:4px;
+	-o-border:4px;
+	
+
+	
+
+
+}
+
+
+section.top-product .food_slider .food_card .product_img img{
+	width: 80%;
+	height: 200px;
+	object-fit: contain;
+	padding-bottom: 1rem;
+
+}
+
+section.top-product .food_slider .food_card h2{
+	font-family: "Ralway-Bold";
+	font-size: 1.3rem;
+	margin-bottom: 0.25rem;
+
+}
+
+.text-center{
+	text-align: center;
+}
+section.top-product .food_slider .food_card .star
+{
+	margin-bottom: 0.25rem;
+}
+
+
+section.top-product .food_slider .food_card .star img{
+	margin-right: 0.5rem;
+
+
+}
+
+
+section.top-product .food_slider .food_card .price{
+	font-family: bold;
+	color: red;
+	margin-bottom: 1rem;
+	padding-top: 0.5rem;
+
+}
+
+section.top-product .food_slider .food_card button{
+	font-family: "Raleway-Bold";
+	content: black;
+	background: white;
+	border: 2px solid yellow;
+	border-radius: 4px;
+	-webkit- border:4px;
+	-moz-border:4px;
+	-ms-border:4px;
+	-o-border:4px;
+	display: flex;
+	align-items: center;
+	width: 50%;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: all .3s ease;
+	-webkit-transition:all .3s ease;
+	-moz-transition:all .3s ease;
+	-ms-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	
+}
+.food_slider .food_card button img{
+	background: yellow;
+	padding: 0.50rem;
+	height: 32px;
+	margin-right: 1.2rem;
+
+}
+section.top-product .food_slider .food_card button:hover{
+	background: yellow;
+	color: white;
+
+}
+
+
+section.about-meal img{
+	width: 85%;
+
+}
+
+.flex-1{
+ flex: 1;
+}
+
+section.about-meal h2{
+
+	font-family: bold;
+	font-size: 1.4rem;
+	color: black;
+	margin-bottom: 2rem;
+	line-height: 1.3rem;
+}
+section.about-meal p{
+	line-height: 1.7rem;
+	margin-bottom: 4rem;
+	font-family: cursive;
+}
+
+
+section.services{
+	background: lightgrey;
+	position: relative;
+	z-index: 0;
+}
+
+section.services .card-wrapper{
+	margin-right: -2rem;
+	margin-top: 8rem;
+}
+
+section.services .service-card{
+	background:white;
+	text-align: center;
+	padding: 2rem;
+	padding-top: 4rem;
+	margin-right: 2rem;
+	border-radius: 4px;
+	position:relative;
+
+}
+section.services .service-card .icon{
+	position: absolute;
+	top: -40px;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+section.services .service-card h2{
+	font-family: "Ralway-Bold";
+	font-size: 1.3rem;
+	margin-bottom: 1rem;
+
+}
+section.services .service-card p{
+	line-height: 1.6;
+	margin-bottom:1rem; 
+	font-family: cursive;
+}
+
+.text-primary{
+	color: yellow;
+}
+
+section.latest-news {
+	background:lightgrey;
+	position: relative;
+	z-index: 0;
+}
+
+.latest-news .artical-wrapper .card img{
+	width: 100%
+
+}
+
+.latest-news .artical-wrapper{
+	margin-right: -2rem;
+}
+.latest-news .artical-wrapper .card{
+	margin-right: 2rem;
+
+background:white;
+border-radius: 4px;
+
+}
+.latest-news .artical-wrapper .card .card-content{
+	padding: 2rem;
+}
+
+
+.latest-news .artical-wrapper .card .card-content .post-meta{
+	margin-bottom: 1rem;
+}
+
+
+.latest-news .artical-wrapper .card .card-content .post-meta .comment-count{
+	margin-left: 1rem;
+}
+
+
+.latest-news .artical-wrapper .card .card-content h2{
+	font-family:"Ralway-Bold";
+	font-size: 1.3rem;
+	margin-bottom: 1rem;
+
+}
+.latest-news .artical-wrapper .card .card-conten p{
+	line-height: 1.6;
+
+}
+
+.latest-news .btn-wrapper{
+	margin-top: 2rem;
+}
+
+section.contact-us .contact-info-wrapper{
+	padding: 4rem 0;
+     flex:1;
+
+}
+
+section.contact-us{
+	padding-top: 0;
+	padding-bottom: 0;
+	background-image: url(./img/contactus.jpg);
+	width: 100%;
+	height: 150%;
+}
+section.contact-us .contact-info{
+	display: flex;
+	
+}
+
+section.contact-us .contact-info >div >div{
+	display: flex;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+section.contact-us .contact-info >div >div img{
+	margin-right: 1rem;
+
+}
+
+section.contact-us .contact-info >div >div >div{
+	display: flex;
+	flex-direction: column;
+}
+section.contact-us .contact-info >div >div >div span:first-child{
+	font-family: bold;
+	margin-bottom: 0.25rem;
+	color: white;
+}
+footer{
+	background: #0f0f0a;
+	padding: 0;
+
+}
+
+footer .contener{
+	display: flex;
+	color: white;
+
+}
+
+
+footer .box{
+	flex: 1;
+	margin-right: 2rem;
+	text-align: center;
+
+}
+
+
+footer .instagram-api img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+footer .instagram-api .post-wrap{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+footer .instagram-api .post-wrap > div{
+	width: calc(1/3*100% - (1 -1/3)*10px);
+	margin-bottom: 10px;
+}
+
+
+footer .box ul{
+	list-style: none;
+}
+footer .box ul li a{
+color: white;
+text-decoration: none;
+
+}
+footer .box ul li a:hover{
+	color: yellow;
+	transition: all .3s ease;
+}
+
+footer .box h3{
+	border-bottom: 1px solid yellow;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+}
+footer .box p{
+	line-height: 1.6;
+	margin-bottom: 1rem;
+
+}
+footer .box ul li{
+	margin-bottom: 1rem;
+
+}
+
+footer .box:nth-child(3) > div{
+	display: flex;
+	justify-content: center;
+
+
+}
+footer .box:nth-child(3){
+	text-align: left;
+	text-align: center;
+}
+
+footer .box:nth-child(3) h3
+{
+	text-align: center;
+
+}
+footer .box:nth-child(3) > div img{
+	margin-right: 1rem;
+}	
+	
+footer .box:nth-child(3) > div ul li{
+	margin-bottom: 1.5rem;
+}
+
+
+
+footer.copyright{
+	padding: 1rem 0;
+	background: black;
+	color: white;
+	text-align: center;
+	font-size: 0.70rem;
+
+}
+footer.copyright a{
+	color: yellow;
+	text-decoration: none;
+}
+
+
+.Gallery img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.Gallery .post-gallery{
+display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.Gallery .post-gallery > div{
+	width: calc(1/3*100% - (1 -1/3)*10px);
+	margin-bottom: 10px;
+}
+.Gallery > div{
+	background: #b34b4b;
+	color: white ;
+}
+
+.Gallery img:hover{
+	border:  5px solid black ;
+
+}
